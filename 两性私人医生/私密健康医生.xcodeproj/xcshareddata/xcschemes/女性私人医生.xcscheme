@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "1010"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "22FA9691169D06870058E8D4"
+               BuildableName = "CureMe.app"
+               BlueprintName = "&#x5973;&#x6027;&#x79c1;&#x4eba;&#x533b;&#x751f;"
+               ReferencedContainer = "container:&#x79c1;&#x5bc6;&#x5065;&#x5eb7;&#x533b;&#x751f;.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "22FA96B2169D06880058E8D4"
+               BuildableName = "&#x79c1;&#x5bc6;&#x5065;&#x5eb7;&#x533b;&#x751f;Tests.xctest"
+               BlueprintName = "&#x79c1;&#x5bc6;&#x5065;&#x5eb7;&#x533b;&#x751f;Tests"
+               ReferencedContainer = "container:&#x79c1;&#x5bc6;&#x5065;&#x5eb7;&#x533b;&#x751f;.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "22FA9691169D06870058E8D4"
+            BuildableName = "CureMe.app"
+            BlueprintName = "&#x5973;&#x6027;&#x79c1;&#x4eba;&#x533b;&#x751f;"
+            ReferencedContainer = "container:&#x79c1;&#x5bc6;&#x5065;&#x5eb7;&#x533b;&#x751f;.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "22FA9691169D06870058E8D4"
+            BuildableName = "CureMe.app"
+            BlueprintName = "&#x5973;&#x6027;&#x79c1;&#x4eba;&#x533b;&#x751f;"
+            ReferencedContainer = "container:&#x79c1;&#x5bc6;&#x5065;&#x5eb7;&#x533b;&#x751f;.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "22FA9691169D06870058E8D4"
+            BuildableName = "CureMe.app"
+            BlueprintName = "&#x5973;&#x6027;&#x79c1;&#x4eba;&#x533b;&#x751f;"
+            ReferencedContainer = "container:&#x79c1;&#x5bc6;&#x5065;&#x5eb7;&#x533b;&#x751f;.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      customArchiveName = "&#x79c1;&#x5bc6;&#x5065;&#x5eb7;&#x533b;&#x751f;"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

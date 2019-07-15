@@ -1,0 +1,43 @@
+//
+// Prefix header for all source files of the '私密健康医生' target in the '私密健康医生' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#include <dlfcn.h>
+#import "NetUtils.h"
+#import "DataUtils.h"
+#import "CureMeUtils.h"
+#import "CMImageUtils.h"
+#import "FileUtils.h"
+#import "Notifications.h"
+#import "JSONKit.h"
+#import "CONST.h"
+#import "CMLogUtils.h"
+#import "CMAppDelegate.h"
+#import "CMViews.h"
+#import "CMException.h"
+#import "CMExtenstion.h"
+
+
+#ifdef DEBUG
+#define DLog(...) NSLog(@"%s %@", __PRETTY_FUNCTION__, [NSString stringWithFormat:__VA_ARGS__])
+#define ALog(...) [[NSAssertionHandler currentHandler] handleFailureInFunction:[NSString stringWithCString:__PRETTY_FUNCTION__ encoding:NSUTF8StringEncoding] file:[NSString stringWithCString:__FILE__ encoding:NSUTF8StringEncoding] lineNumber:__LINE__ description:__VA_ARGS__]
+#else
+#define DLog(...) do { } while (0)
+#ifndef NS_BLOCK_ASSERTIONS
+#define NS_BLOCK_ASSERTIONS
+#endif
+#define ALog(...) NSLog(@"%s %@", __PRETTY_FUNCTION__, [NSString stringWithFormat:__VA_ARGS__])
+#endif
+
+#define ZAssert(condition, ...) do { if (!(condition)) { ALog(__VA_ARGS__); }} while(0)
