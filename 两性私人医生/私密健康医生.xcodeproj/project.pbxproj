@@ -856,8 +856,8 @@
 		70FDD8A722671C3700FE1ABE /* srys_p_w@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70FDD89122671C3600FE1ABE /* srys_p_w@2x.png */; };
 		70FDD8A822671C3700FE1ABE /* srys_p_w@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70FDD89222671C3600FE1ABE /* srys_p_w@3x.png */; };
 		70FDD8A922671C3700FE1ABE /* wdzx_p_w@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70FDD89322671C3600FE1ABE /* wdzx_p_w@3x.png */; };
-		70FDD8B72268650600FE1ABE /* VPResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 70FDD8B52268650600FE1ABE /* VPResource.bundle */; };
-		70FDDD812268668E00FE1ABE /* VaptchaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70FDD8B42268650600FE1ABE /* VaptchaSDK.framework */; };
+		B753893A22DEFA960038CFB6 /* VaptchaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B753893822DEFA930038CFB6 /* VaptchaSDK.framework */; };
+		B753893B22DEFA960038CFB6 /* VPResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B753893922DEFA950038CFB6 /* VPResource.bundle */; };
 		DE016F7B199C87AC007F38AF /* CMException.m in Sources */ = {isa = PBXBuildFile; fileRef = DE016F7A199C87AC007F38AF /* CMException.m */; };
 		DE016F7F199C9FD7007F38AF /* CMExtenstion.m in Sources */ = {isa = PBXBuildFile; fileRef = DE016F7E199C9FD7007F38AF /* CMExtenstion.m */; };
 		DE3A17F91A2305C800B606F6 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3A17F81A2305C800B606F6 /* OpenGLES.framework */; };
@@ -1865,8 +1865,8 @@
 		70FDD89122671C3600FE1ABE /* srys_p_w@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "srys_p_w@2x.png"; sourceTree = "<group>"; };
 		70FDD89222671C3600FE1ABE /* srys_p_w@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "srys_p_w@3x.png"; sourceTree = "<group>"; };
 		70FDD89322671C3600FE1ABE /* wdzx_p_w@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wdzx_p_w@3x.png"; sourceTree = "<group>"; };
-		70FDD8B42268650600FE1ABE /* VaptchaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VaptchaSDK.framework; sourceTree = "<group>"; };
-		70FDD8B52268650600FE1ABE /* VPResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = VPResource.bundle; sourceTree = "<group>"; };
+		B753893822DEFA930038CFB6 /* VaptchaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VaptchaSDK.framework; sourceTree = "<group>"; };
+		B753893922DEFA950038CFB6 /* VPResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = VPResource.bundle; sourceTree = "<group>"; };
 		DE016F79199C87AC007F38AF /* CMException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMException.h; path = "女性私人医生/Base/CMException.h"; sourceTree = "<group>"; };
 		DE016F7A199C87AC007F38AF /* CMException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMException.m; path = "女性私人医生/Base/CMException.m"; sourceTree = "<group>"; };
 		DE016F7D199C9FD7007F38AF /* CMExtenstion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMExtenstion.h; path = "女性私人医生/Base/CMExtenstion.h"; sourceTree = "<group>"; };
@@ -1918,12 +1918,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70FDDD812268668E00FE1ABE /* VaptchaSDK.framework in Frameworks */,
 				582CE2F61F1722D5002E5AD7 /* WebKit.framework in Frameworks */,
 				582EE9F51EFCBCF60096B4A8 /* Accelerate.framework in Frameworks */,
 				582EE9F31EFCBCBF0096B4A8 /* CFNetwork.framework in Frameworks */,
 				DE3A17FB1A2305DC00B606F6 /* Security.framework in Frameworks */,
 				5814F96220170C560072B27F /* libWeChatSDK.a in Frameworks */,
+				B753893A22DEFA960038CFB6 /* VaptchaSDK.framework in Frameworks */,
 				582EE8ED1EFCBBD90096B4A8 /* WatchKit.framework in Frameworks */,
 				582EE8EB1EFCBBD10096B4A8 /* libicucore.tbd in Frameworks */,
 				581A4CB61EC0542D00706F97 /* libbaidumapapi.a in Frameworks */,
@@ -2207,7 +2207,6 @@
 		22FA9695169D06870058E8D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				70FDD8B42268650600FE1ABE /* VaptchaSDK.framework */,
 				582CE2F51F1722D5002E5AD7 /* WebKit.framework */,
 				582EE9F41EFCBCF60096B4A8 /* Accelerate.framework */,
 				582EE9F21EFCBCBF0096B4A8 /* CFNetwork.framework */,
@@ -3681,7 +3680,8 @@
 		70FDD8B32268650600FE1ABE /* Vaptcha */ = {
 			isa = PBXGroup;
 			children = (
-				70FDD8B52268650600FE1ABE /* VPResource.bundle */,
+				B753893822DEFA930038CFB6 /* VaptchaSDK.framework */,
+				B753893922DEFA950038CFB6 /* VPResource.bundle */,
 			);
 			path = Vaptcha;
 			sourceTree = "<group>";
@@ -3817,7 +3817,7 @@
 				TargetAttributes = {
 					22FA9691169D06870058E8D4 = {
 						DevelopmentTeam = 429WZWZX68;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Push = {
 								enabled = 1;
@@ -3834,6 +3834,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 22FA9687169D06870058E8D4;
@@ -4007,7 +4008,7 @@
 				22FD130E16A59A1E00B1F69C /* 左_p@2x.png in Resources */,
 				22FD130F16A59A1E00B1F69C /* 中_p@2x.png in Resources */,
 				70D9A5B91EB97BBE00E2BD43 /* dchat@2x.png in Resources */,
-				70FDD8B72268650600FE1ABE /* VPResource.bundle in Resources */,
+				B753893B22DEFA960038CFB6 /* VPResource.bundle in Resources */,
 				22FD131016A59A1E00B1F69C /* 全_p@2x.png in Resources */,
 				22FD131116A59A1E00B1F69C /* 右_p@2x.png in Resources */,
 				22FFA85716A678F400E0978C /* chat_bg_right_normal@2x.png in Resources */,
@@ -4861,6 +4862,7 @@
 		22FA96C6169D06880058E8D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-1";
@@ -4868,12 +4870,11 @@
 				CODE_SIGN_ENTITLEMENTS = "女性私人医生/CureMe.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 429WZWZX68;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Vaptcha",
 				);
 				GCC_INPUT_FILETYPE = automatic;
@@ -4898,7 +4899,7 @@
 				PRODUCT_NAME = CureMe;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				PROVISIONING_PROFILE_SPECIFIER = SMJK_Devlopment;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};
@@ -4907,6 +4908,7 @@
 		22FA96C7169D06880058E8D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-1";
@@ -4914,12 +4916,11 @@
 				CODE_SIGN_ENTITLEMENTS = "女性私人医生/CureMe.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 429WZWZX68;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Vaptcha",
 				);
 				GCC_INPUT_FILETYPE = automatic;
@@ -4944,7 +4945,7 @@
 				PRODUCT_NAME = CureMe;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				PROVISIONING_PROFILE_SPECIFIER = SMJK_AdHoc;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};
